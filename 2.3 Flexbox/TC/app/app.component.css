@@ -1,0 +1,101 @@
+.card {
+    width: 1000px; /*Ponemos el ancho y la altura de nuestro marco*/
+    height: 520px;
+    border: 2px solid #878787; /*Hacemos el borde del marco*/
+    display: inline-flex; /*organizaremos el contenido con los siguientes comandos*/
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%; /*centraremos un poco el contenido*/
+    margin-left: 10%;
+}
+
+.card .element1 {
+    width: 300px; /*Ponemos el ancho y la altura de nuestro elemento*/
+    height: 150px;
+    border: 6px solid #878785; /*Hacemos el borde del elemento*/
+    margin-top: 10%; /*Ajustando los margenes se ve mejor*/
+}
+
+.card .element1 .color1 {
+    width: 200px; /*Ponemos el ancho y la altura de nuestro color*/
+    height: 100px;
+    background-color: firebrick;
+    margin-top: 8%;/*Ajustamos los colores */
+    margin-left: 16%;
+}
+
+.card .element2 {
+    width: 300px; /*Ponemos el ancho y la altura de nuestro elemento*/
+    height: 150px;
+    border: 6px solid #878785; /*Hacemos el borde del elemento*/
+    margin-top: 10%;
+}
+
+.card .element2 .color2 {
+    width: 200px; /*Ponemos el ancho y la altura de nuestro color*/
+    height: 100px;
+    background-color:chartreuse;
+    margin-top: 8%;
+    margin-left: 16%;
+}
+
+.card .element3 {
+    width: 300px; /*Ponemos el ancho y la altura de nuestro elemento*/
+    height: 150px;
+    border: 6px solid #878785; /*Hacemos el borde del elemento*/
+    margin-top: 10%;
+}
+
+.card .element3 .color3 {
+    width: 200px; /*Ponemos el ancho y la altura de nuestro color*/
+    height: 100px;
+    background-color:blue;
+    margin-top: 8%;
+    margin-left: 16%;
+}
+
+.card .element4 {
+    width: 300px; /*Ponemos el ancho y la altura de nuestro elemento*/
+    height: 150px;
+    border: 6px solid #878785; /*Hacemos el borde del elemento*/
+    margin-bottom: 10%;
+}
+
+.card .element4 .color4 {
+    width: 200px; /*Ponemos el ancho y la altura de nuestro color*/
+    height: 100px;
+    background-color:chartreuse;
+    margin-top: 8%;
+    margin-left: 16%;
+}
+
+.card .element5 {
+    width: 300px; /*Ponemos el ancho y la altura de nuestro elemento*/
+    height: 150px;
+    border: 6px solid #878785; /*Hacemos el borde del elemento*/
+    margin-bottom: 10%;
+}
+
+.card .element5 .color5 {
+    width: 200px; /*Ponemos el ancho y la altura de nuestro color*/
+    height: 100px;
+    background-color:blue;
+    margin-top: 8%;
+    margin-left: 16%;
+}
+
+.card .element6 {
+    width: 300px; /*Ponemos el ancho y la altura de nuestro elemento*/
+    height: 150px;
+    border: 6px solid #878785; /*Hacemos el borde del elemento*/
+    margin-bottom: 10%;
+}
+
+.card .element6 .color6 {
+    width: 200px; /*Ponemos el ancho y la altura de nuestro color*/
+    height: 100px;
+    background-color: firebrick;
+    margin-top: 8%;
+    margin-left: 16%;
+}

@@ -1,0 +1,66 @@
+.card{
+    width: 800px;
+    height: 400px;
+    border: 2px solid rgb(5, 1, 1);
+    padding: 48px;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #B8B0B0;    
+}
+
+.card .profile {
+    width: 180px;
+    height: 180px;
+    margin: 0px;
+    border-radius: 100px;
+    background-size: 100%;
+    background-image: url(roquita.png);
+}
+
+.card .name{
+    margin: 0px;
+    margin-left: 300px;
+    margin-top: -140px;
+    font-size: 60px;
+    color: #020202;
+
+}
+
+.card .mastersDegree {
+    margin:6px;
+    margin-left: 300px;
+    font-size: 20px;
+    color: #ed1c24;
+}
+
+.card .description {
+    margin-left: 260px;
+    border: solid #D4D0D0;
+    font-size: 20px;
+    background-color: #FFFFFF;
+}
+
+.card .habilities {
+    margin-left: 260px;
+    margin: 10;
+    font-size: 18px;
+    color: #020202;
+}
+
+.card .email {
+    margin-left: 400px;
+    margin: 6;
+    font-size: 16px;
+    color: #020202;
+}
+
+.card .phoneNumber {
+    margin-left: 400px;
+    margin: 6;
+    font-size: 16px;
+    color: #020202;
+}
